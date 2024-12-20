@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+      "jsx": "react",
+      "baseUrl": "./src",
+      "paths": {
+        "*": ["*"]
+      },
+      "allowSyntheticDefaultImports": true,
+      "types": ["node", "jest", "@testing-library/jest-dom"],
+      "resolveJsonModule": true
+    }
+  }
+  

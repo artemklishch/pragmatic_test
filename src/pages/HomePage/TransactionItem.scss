@@ -1,0 +1,70 @@
+.transaction-item {
+    height: 80px;
+    display: flex;
+    margin-top: 10px;
+    padding-bottom: 10px;
+    &:not(:last-child) {
+        border-bottom: 1px solid rgb(245, 235, 235);
+    }
+    &__item-wrapper {
+        flex-grow: 1;
+        display: flex;
+        &_icon {
+            display: inline-block;
+            width: 50px;
+            height: 50px;
+            border-radius: 5px;
+            align-self: center;
+        }
+        .item-content {
+            flex-grow: 1;
+            margin-left: 5px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            &__header {
+                display: flex;
+                justify-content: space-between;
+                &_title {
+                    margin: 0;
+                }
+                &_data {
+                    display: flex;
+                    align-items: center;
+                    gap: 5px;
+                    .value {
+                        font-size: 14px;
+                        font-weight: 600;
+                        color: rgb(74, 80, 80);
+                    }
+                    .arrow-button {
+                        width: 25px;
+                        height: 25px;
+                        display: flex;
+                        justify-content: center;
+                        cursor: pointer;
+                        border-radius: 50%;
+                        svg {
+                            align-self: center;
+                            width: 20px;
+                            height: 20px;
+                        }
+                        &:hover {
+                            background-color: rgb(150, 141, 141);
+                            svg {
+                                fill: white;
+                            }
+                        }
+                    }
+                }
+            }
+            &__desc {
+                margin: 0;
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                max-width: 60vw;
+            }
+        }
+    }
+}

@@ -1,0 +1,46 @@
+[
+  {
+    "id": 1,
+    "type": "Payment",
+    "amount": 174.0,
+    "name": "IKEA",
+    "description": "IKEA description",
+    "date": "2024-12-19",
+    "pending": true,
+    "auth_user": "John Dou",
+    "icon": "https://th.bing.com/th/id/OIG2._JJ7jEND0UMuzHjwBeTh"
+  },
+  {
+    "id": 2,
+    "type": "Credit",
+    "amount": 74.0,
+    "name": "Target",
+    "description": "Target description",
+    "date": "2024-12-18",
+    "pending": true,
+    "auth_user": null,
+    "icon": "https://th.bing.com/th/id/OIG2._JJ7jEND0UMuzHjwBeTh"
+  },
+  {
+    "id": 3,
+    "type": "Payment",
+    "amount": 4.0,
+    "name": "Sony",
+    "description": "Sony description",
+    "date": "2023-12-18",
+    "pending": false,
+    "auth_user": null,
+    "icon": "https://th.bing.com/th/id/OIG2._JJ7jEND0UMuzHjwBeTh"
+  },
+  {
+    "id": 4,
+    "type": "Credit",
+    "amount": 40.0,
+    "name": "Apple",
+    "description": "Apple description",
+    "date": "2022-12-18",
+    "pending": false,
+    "auth_user": "Bob Marley",
+    "icon": "https://th.bing.com/th/id/OIG2._JJ7jEND0UMuzHjwBeTh"
+  }
+]

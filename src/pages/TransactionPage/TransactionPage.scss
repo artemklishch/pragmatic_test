@@ -1,0 +1,58 @@
+.transaction-page {
+    display: flex;
+    flex-direction: column;
+    &__back-btn {
+        align-self: flex-start;
+        cursor: pointer;
+        border: none;
+        background-color: transparent;
+        width: 35px;
+        height: 35px;
+        border-radius: 5px;
+        display: flex;
+        justify-content: center;
+        border-radius: 50%;
+        &_back-arrow {
+            display: inline-block;
+            width: 30px;
+            height: 30px;
+            border-radius: 5px;
+            align-self: center;
+            transform: rotate(180deg);
+        }
+        &:active {
+            background-color: lightgray;
+        }
+    }
+    &__value {
+        align-self: center;
+        margin: 10px 0;
+    }
+    &__subtitle {
+        align-self: center;
+        margin: 0 0 10px 0;
+        font-weight: 600;
+    }
+    &__title,
+    &__desc {
+        margin: 10px 0;
+    }
+
+    &__subtitle,
+    &__desc {
+        color: rgb(110, 104, 104);
+    }
+    &__divider {
+        height: 1px;
+        width: 100%;
+        background-color: lightgray;
+    }
+    &__total-block {
+        display: flex;
+        justify-content: space-between;
+        &_text {
+            margin: 0;
+            font-weight: 600;
+        }
+    }
+}
