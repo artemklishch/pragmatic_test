@@ -1,5 +1,3 @@
-import { calculateDaysDifference } from "./dates";
-
 export const WEEK_DAYS_NUMBER = 7;
 
 export const DAYS_NAMES: string[] = [
